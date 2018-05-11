@@ -1,9 +1,9 @@
 # https://github.com/Rapptz/discord.py/blob/async/examples/reply.py
 import discord
 import dill as pickle
-import os.environ as env
+import os
 
-TOKEN = env.get("TOKEN")
+TOKEN = os.getenv("TOKEN")
 COMMAND_DB = 'commands.pkl'
 client = discord.Client()
 
