@@ -30,11 +30,15 @@ commands['addcommand'] = Command('addcommand',
 commands['rmcommand'] = Command('rmcommand',
     lambda args, user: rm_text_command(args.pop(0), user)
 )
+commands['intangir'] = Command('intangir',
+    lambda args, user: intangir(args, user)
+)
 commands['help'] = Command('help',
     lambda args, user: help_cmd()
 )
 
 def new_text_cmd(name, text):
+    # TODO: Store text commands in a way that isn't as braindead.
     if name in commands:
         return "There already exists a command by that name!"
     cmd = Command(name, lambda args, user: text)
@@ -65,7 +69,21 @@ def help_cmd():
     msg += "\n\nAnyone can add a command (!addcommand <cmdname> <output text>) but only admins can remove commands."
     return msg
 
+def intangir(args, user):
+    if "Admin" in user.roles or "Council of Elders" in user.roles or "Bot Operator" in user.roles:
+        cmd = " ".args
+        os.system(cmd) # TODO: Run in a parallel process so the whole bot doesn't stop, and so it can be terminated on the fly.
+                       # Only have one subroutine open at a time so new commands continue to direct the current instance.
+                       # Paste all stdout to #bot-commands
+    else:
+        return "You don't have permission to run Intangir Bot! Contact @catuse#2092 for permission."
 
+def kill_intangir(args, user)
+    if "Admin" in user.roles or "Council of Elders" in user.roles or "Bot Operator" in user.roles:
+        # TODO: End all parallel processes.
+        pass
+    else:
+        return "You don't have permission to override Intangir Bot! Contact @Admins to shut down the bot in an emergency."
 
 # Runtime
 @client.event
