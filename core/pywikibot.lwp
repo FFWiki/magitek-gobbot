@@ -1,0 +1,7 @@
+#LWP-Cookies-2.0
+Set-Cookie3: access_token=xipGEqEASQumdq1TqxenMw; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-11-15 18:02:18Z"; HttpOnly=None; version=0
+Set-Cookie3: wikia_beacon_id=kbBcjQQfhv; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-11-13 06:02:02Z"; version=0
+Set-Cookie3: wikia_session_id=AlM8rqp0t5; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-05-17 06:32:02Z"; version=0
+Set-Cookie3: wikicitiesToken=78f3dcb2fb4bacf4fe0ab7992ac95032; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-11-13 06:02:18Z"; HttpOnly=None; version=0
+Set-Cookie3: wikicitiesUserID=4814593; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-11-13 06:02:18Z"; HttpOnly=None; version=0
+Set-Cookie3: wikicitiesUserName="Intangir+Bot"; path="/"; domain=".wikia.com"; path_spec; domain_dot; expires="2018-11-13 06:02:18Z"; HttpOnly=None; version=0

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Rancher",
+			"Acamicamacaraca"
+		]
+	},
+	"spamremove-remove": "Уклоњене везе до спамерског сајта %(url)s"
+}

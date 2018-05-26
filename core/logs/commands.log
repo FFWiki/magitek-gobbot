@@ -1,0 +1,18 @@
+2018-05-16 22:52:03 rg9459 Python 3.5.4 generate_user_files
+2018-05-16 22:59:35 rg9459 Python 3.5.4 generate_user_files
+2018-05-16 22:59:57 rg9459 Python 3.5.4 login
+2018-05-16 23:01:49 rg9459 Python 3.5.4 cosmetic_changes
+2018-05-16 23:02:02 rg9459 Python 3.5.4 cosmetic_changes "-start:N"
+2018-05-17 00:32:50 rg9459 Python 3.5.4 replace "-links:navbox X2"
+2018-05-17 00:33:15 rg9459 Python 3.5.4 replace "-links:template:navbox X2"
+2018-05-17 00:33:34 rg9459 Python 3.5.4 replace "-pt:0" "-links:template:navbox X2"
+2018-05-17 00:33:44 rg9459 Python 3.5.4 replace "-pt:0" "-links:template:navbox X2" "{{X2}}" "{{navbox X2}}"
+2018-05-17 00:37:05 rg9459 Python 3.5.4 replace "-pt:0" "-catr:Final Fantasy X-2 characters" "{{X2}}" "{{navbox characters X2}}"
+2018-05-17 00:40:12 rg9459 Python 3.5.4 replace "-pt:0" "-links:Template:navbox characters X2" "-summary:FFX-2 navbox update" "{{X2}}" "{{navbox characters X2}}"
+2018-05-17 00:43:01 rg9459 Python 3.5.4 replace "-pt:0" "-links:Template:navbox setting X2" "-summary:FFX-2 navbox update" "{{X2}}" "{{navbox setting X2}}"
+2018-05-17 00:45:50 rg9459 Python 3.5.4 replace "-pt:0" "-links:Template:navbox abilities X2" "-summary:FFX-2 navbox update" "{{X2}}" "{{navbox abilities X2}}"
+2018-05-17 00:53:44 rg9459 Python 3.5.4 replace "-pt:0" "-transcludes:X2LM" "-summary:FFX-2 navbox update" "{{X2LM}}" "{{navbox X2LM}}"
+2018-05-17 00:55:55 rg9459 Python 3.5.4 replace "-pt:0" "-ref:Template:X2LM" "-summary:FFX-2 navbox update" "Template:X2LM" "Template:navbox X2LM"
+2018-05-17 00:56:12 rg9459 Python 3.5.4 replace "-pt:0" "-transcludes:X2EC" "-summary:FFX-2 navbox update" "{{X2EC}}" "{{navbox X2EC}}"
+2018-05-17 00:56:39 rg9459 Python 3.5.4 replace "-pt:0" "-transcludes:FFXEC" "-summary:FFX-2 navbox update" "{{FFXEC}}" "{{navbox FFXEC}}"
+2018-05-17 01:01:03 rg9459 Python 3.5.4 replace "-pt:0" "-transcludes:FFXI Abilities" "-summary:FFXI navbox update" "FFXI Abilities" "navbox abilities FFXI"

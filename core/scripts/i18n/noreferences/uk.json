@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dim Grits",
+			"Ата",
+			"Piramidion",
+			"Avatar6"
+		]
+	},
+	"noreferences-add-tag": "Бот: Додано відсутній тег <references />",
+	"noreferences-fix-tag": "Бот: Виправлення неправильного синтаксису <references />"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Zaher kadour",
+			"ديفيد",
+			"Framawiki"
+		]
+	},
+	"noreferences-add-tag": "بوت: إضافة {{قا|مراجع}} مفقود لمقالة [[ويكيبيديا:مراجع|بمراجع]]",
+	"noreferences-fix-tag": "بوت: تصحيح صيغة غير صحيحة لوسم <references />"
+}

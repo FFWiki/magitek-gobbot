@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Invadinado",
+			"Vivaelcelta",
+			"Macofe"
+		]
+	},
+	"capitalize_redirects-create-redirect": "Robot: creación de redirección a [[%(to)s]]"
+}

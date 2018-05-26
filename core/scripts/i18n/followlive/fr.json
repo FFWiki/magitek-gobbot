@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hashar",
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"followlive-blanking": "Effacé, le contenu était '%(content)s'."
+}

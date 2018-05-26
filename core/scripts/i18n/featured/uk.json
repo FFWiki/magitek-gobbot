@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dim Grits",
+			"Emaus",
+			"Avatar6"
+		]
+	},
+	"featured-featured": "Бот: вибрана стаття %(page)s",
+	"featured-former": "Бот: %(page)s є колишньою вибраною статтею",
+	"featured-good": "Бот: добра стаття %(page)s",
+	"featured-list": "Бот: %(page)s вибраний список"
+}
