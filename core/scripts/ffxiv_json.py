@@ -114,7 +114,7 @@ def publish_index(db, db_count, subdivision, index):
 
 def main(*args):
     for db in xivdb:
-        if db != "instance":
+        if db != "instance" and DEBUG:
             continue
         if VERBOSE:
             print("Running parser on database " + db + ":")
