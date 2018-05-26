@@ -6,8 +6,8 @@ from databases.ffxiv import databases as xivdb
 # Need PIP for urllib and json
 xivdb = xivdb()
 
-DEBUG = True
-VERBOSE = True
+DEBUG = False
+VERBOSE = False
 
 def decode(url):
     req = urllib.request.Request(url, headers={"User-Agent": "JSON reader"})
