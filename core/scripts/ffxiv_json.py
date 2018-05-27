@@ -1,6 +1,6 @@
 # TODO: Make icons work
 
-import urllib.request, json, databases.ffxiv
+import urllib.request, json, databases.ffxiv_truncated #BEWARE
 from update_module import publish
 from databases.ffxiv import databases as xivdb
 # Need PIP for urllib and json
