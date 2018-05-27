@@ -1,13 +1,18 @@
 # TODO: Make icons work
 
-import urllib.request, json, databases.ffxiv_truncated #BEWARE
+TRUNCATED = True
+DEBUG = False
+VERBOSE = False
+
+import urllib.request, json
+if TRUNCATED:
+    import databases.ffxiv_truncated #BEWARE
+else:
+    import databases.ffxiv
 from update_module import publish
 from databases.ffxiv import databases as xivdb
 # Need PIP for urllib and json
 xivdb = xivdb()
-
-DEBUG = False
-VERBOSE = False
 
 def decode(url):
     req = urllib.request.Request(url, headers={"User-Agent": "JSON reader"})
