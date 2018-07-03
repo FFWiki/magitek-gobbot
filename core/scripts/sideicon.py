@@ -100,8 +100,8 @@ def primecheck(page, innerSideiconContent):
         if tit not in codenames:
             return
         codename = codenames[tit]
-        print('\t' + codename)
-        print('\t' + innerSideiconContent)
+        # print('\t' + codename)
+        # print('\t' + innerSideiconContent)
         if "|" + codename + "}}" in innerSideiconContent:
             return innerSideiconContent.replace("|" + codename + "}}", "|prime=" + codename + "}}")
         elif "|" + codename + "|" in innerSideiconContent:
@@ -120,11 +120,11 @@ def sideicon(page):
         page.text = page.text[:i] + page.text[j+2:]
     innerSideiconContent = innerSideiconContent + '}}'
     innerSideiconContent = primecheck(page, innerSideiconContent) 
-    print('\t' + innerSideiconContent)
+    # print('\t' + innerSideiconContent)
     while page.text[:1] == '\n':
         page.text = page.text[1:]
     page.text = innerSideiconContent + '\n' + page.text
-    page.save(u'Reformatting {{sideicon}} with categoric ancestors - Test batch')
+    page.save(u'Reformatting {{sideicon}} with categoric ancestors')
 
 def main(*args):
     gen = pagegenerators.ReferringPageGenerator(pywikibot.Page(site, 'Template:Sideicon'), onlyTemplateInclusion=True)
