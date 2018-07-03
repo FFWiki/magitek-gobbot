@@ -27,7 +27,7 @@ def main(*args):
     pages = {}
     namescapes = {0, 4, 8, 10, 12, 828}
     for ns in namescapes:
-        gen = site.allpages(start="List",namespace=ns)
+        gen = site.allpages(namespace=ns)
         for page in gen:
             # print(page.title())
             clssea = string_search(page.text)
