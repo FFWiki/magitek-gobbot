@@ -1,4 +1,4 @@
-import pywikibot, string, sys
+import pywikibot, random, string, sys
 from pywikibot import pagegenerators
 from pywikibot import textlib
 site = pywikibot.Site()
@@ -62,6 +62,10 @@ optCodenames = {
     'Final Fantasy Trading Card Game': 'FFTCG'
 }
 
+YYYY = 2007
+MM = 6
+DD = 3
+
 ancestorMemo = {}
 
 def categoricAncestor(page, depth):
@@ -89,6 +93,16 @@ def categoricAncestor(page, depth):
     ancestorMemo[page] = False
     return False
 
+def startDate(page, year, month, day):
+    stamp = page.getVersionHistory()[-1].timestamp
+    if random.uniform(0, 1) < .01: # Random progress check!
+        print(str(stamp))
+    if stamp.year != year:
+        return stamp.year > year
+    if stamp.month != month:
+        return stamp.month > month
+    return stamp.day >= stamp.day
+
 def printAncestorMemo():
     # for debugging
     return ancestorMemo
@@ -111,6 +125,8 @@ def primecheck(page, innerSideiconContent):
     return innerSideiconContent
  
 def sideicon(page):
+    if "prime=" in page.text or not startDate(page, YYYY, MM, DD):
+        return
     i = 0
     innerSideiconContent = '{{sideicon'
     while page.text.find('{{sideicon', i) != -1:
