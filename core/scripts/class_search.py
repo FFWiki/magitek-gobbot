@@ -17,7 +17,7 @@ CLASSES = ["shaded",
     "flowchart",
     "board"]
 NAMESPACES = [0, 4, 8, 10, 12, 828]
-TOLERANCE = 1
+TOLERANCE = .005
 
 def print_to_wiki(pages):
     log = pywikibot.Page(site, "User:Intangir Bot/Logs/Class Search")
@@ -42,13 +42,13 @@ def class_search(page):
     return False
 
 def random_check(page):
-    if random.uniform(0, 1) < .005:
+    if random.uniform(0, 1) < TOLERANCE:
         print(page.title() + " is now done!")
 
 def main(*args):
     pages = {}
     for ns in NAMESPACES:
-        gen = site.allpages(start="Harlequin of Death", namespace=ns)
+        gen = site.allpages(start="!", namespace=ns)
         for page in gen:
             classes = class_search(page)
             if classes:
