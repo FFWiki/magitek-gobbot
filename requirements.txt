@@ -10,7 +10,7 @@ numpy==1.13.3
 pipenv==11.10.4
 pyreadline==2.1
 requests==2.18.4
-urllib3==1.22
+urllib3==1.24.2
 virtualenv==15.2.0
 virtualenv-clone==0.3.0
 websockets==3.4
